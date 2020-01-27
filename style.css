@@ -1,4 +1,13 @@
 .jumbotron {
+  max-width: 900px;
+  margin: 100px auto;
+}
+
+@media screen and (max-width:300px) {
+  .jumbotron {
+    background-color: olive;
+    color: #fff;
     max-width: 900px;
     margin: 100px auto;
+  }
 }
