@@ -11,5 +11,5 @@
 }
 
   @media screen and (min-width:301px) and (max-width:767px){
-     .jumbotron {background-color: violet;}
+     .jumbotron {background-color: rgb(238, 130, 130);}
   }
