@@ -1,3 +1,12 @@
+:root {
+    --x:red;
+}
+
+h1{
+ color: var(--x);
+ width:calc(100% / 2)
+}
+
 .jumbotron {
   max-width: 900px;
   margin: 100px auto;
