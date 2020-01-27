@@ -1,3 +1,14 @@
+:root {
+  --x:100;
+}
+
+h1 {
+  
+  width:calc(var(--x) * 1px);
+  outline:2px dotted snow;
+  overflow: hidden;;
+}
+
 .jumbotron {
   max-width: 900px;
   margin: 100px auto;
@@ -13,3 +24,4 @@
   @media screen and (min-width:301px) and (max-width:767px){
      .jumbotron {background-color:  rgb(238, 130, 130); color:red;}
   }
+
