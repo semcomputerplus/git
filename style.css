@@ -8,8 +8,8 @@
     background-color: olive;
     color: #fff;
   }
+}
 
   @media screen and (min-width:301px) and (max-width:767px){
      .jumbotron {background-color: violet;}
   }
-  
